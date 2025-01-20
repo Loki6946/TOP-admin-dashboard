@@ -8,7 +8,293 @@
 </head>
 <body>
 
-  <h1>Hello world</h1>
+  <div class="admin-dashboard">
+
+    <header class="header">
+      <div class="header__search-container">
+        <label for="search" class="header__search-icon">
+          <img src="./assets/icons/magnify.svg" alt="search-icon">
+        </label>
+        <input type="text" class="header__search-input" id="search" name="search_for">
+      </div>
+      <div class="header__account-container">
+        <a href="#" class="header__notification">
+          <img src="./assets/icons/bell-ring-outline.svg" alt="notification-icon">
+        </a>
+        <a href="#" class="header__account">
+          <img src="./assets/images/pp.jpeg" alt="user-profile-picture">
+          Loki
+        </a>
+      </div>
+      <div class="header__greeting-container">
+        <img src="./assets/images/pp.jpeg" alt="user-profile-picture">
+        <div>
+          <p class="header__greeting header__greeting_small">Hi there,</p>
+          <p class="header__greeting">Loki (@Loki6946)</p>
+        </div>
+      </div>
+      <div class="header__action-container">
+        <a href="#" class="header__action">New</a>
+        <a href="#" class="header__action">Upload</a>
+        <a href="#" class="header__action">Share</a>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <a href="#" class="navbar__logo">
+        <img src="./assets/icons/land-plots.svg" alt="dashboard-logo">
+        Dashboard
+      </a>
+      <ul class="navbar__menu">
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/home.svg" alt="home-icon">
+            Home
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/profile.svg" alt="profile-icon">
+            Profile
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/messages.svg" alt="messages-icon">
+            Messages
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/history.svg" alt="history-icon">
+            History
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/tasks.svg" alt="task-icon">
+            Tasks
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/communities.svg" alt="communities-icon">
+            Communities
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar__menu">
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/settings.svg" alt="settings-icon">
+            Settings
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/support.svg" alt="support-icon">
+            Support
+          </a>
+        </li>
+        <li class="navbar__menu-item">
+          <a href="#">
+            <img src="./assets/icons/privacy.svg" alt="privacy-icon">
+            Privacy
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+
+      <div class="project">
+        <p class="main__heading">Your Projects</p>
+        <div class="project__card-container">
+          <div class="project__card">
+            <p class="project__card-title">Super Cool Project</p>
+            <p class="project__card-description">
+              Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilis felis accumsan nec.
+            </p>
+            <div class="project__action-container">
+              <a href="#" class="project__action">
+                <img src="./assets/icons/star-plus-outline.svg" alt="star-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/eye-plus-outline.svg" alt="eye-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/source-branch.svg" alt="branch-icon">
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <p class="project__card-title">Less Cool Project</p>
+            <p class="project__card-description">
+              Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilis felis accumsan nec.
+            </p>
+            <div class="project__action-container">
+              <a href="#" class="project__action">
+                <img src="./assets/icons/star-plus-outline.svg" alt="star-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/eye-plus-outline.svg" alt="eye-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/source-branch.svg" alt="branch-icon">
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <p class="project__card-title">Impossible App</p>
+            <p class="project__card-description">
+              Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilis felis accumsan nec.
+            </p>
+            <div class="project__action-container">
+              <a href="#" class="project__action">
+                <img src="./assets/icons/star-plus-outline.svg" alt="star-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/eye-plus-outline.svg" alt="eye-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/source-branch.svg" alt="branch-icon">
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <p class="project__card-title">Easy Peasy App</p>
+            <p class="project__card-description">
+              Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilis felis accumsan nec.
+            </p>
+            <div class="project__action-container">
+              <a href="#" class="project__action">
+                <img src="./assets/icons/star-plus-outline.svg" alt="star-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/eye-plus-outline.svg" alt="eye-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/source-branch.svg" alt="branch-icon">
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <p class="project__card-title">Ad Blocker</p>
+            <p class="project__card-description">
+              Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilis felis accumsan nec.
+            </p>
+            <div class="project__action-container">
+              <a href="#" class="project__action">
+                <img src="./assets/icons/star-plus-outline.svg" alt="star-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/eye-plus-outline.svg" alt="eye-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/source-branch.svg" alt="branch-icon">
+              </a>
+            </div>
+          </div>
+          <div class="project__card">
+            <p class="project__card-title">Money Maker</p>
+            <p class="project__card-description">
+              Sed tempus ut lacus ut scelerisque.
+              Suspendisse sollicitudin nibh erat, id
+              facilis felis accumsan nec.
+            </p>
+            <div class="project__action-container">
+              <a href="#" class="project__action">
+                <img src="./assets/icons/star-plus-outline.svg" alt="star-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/eye-plus-outline.svg" alt="eye-icon">
+              </a>
+              <a href="#" class="project__action">
+                <img src="./assets/icons/source-branch.svg" alt="branch-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="announcements">
+        <p class="main__heading">Annoucements</p>
+        <div class="announcements__card">
+          <div class="announcements__announcement-container">
+            <p class="announcements__title">Site Maintenance</p>
+            <p class="announcements__description">
+              Vestibulum condimentum tellus lacus,
+              in accumsian elit maximus ac. Donac
+              handrelit sodales congue...
+            </p>
+          </div>
+          <div class="announcements__announcement-container">
+            <p class="announcements__title">Community Share Day</p>
+            <p class="announcements__description">
+              Vestibulum condimentum tellus lacus,
+              in accumsian elit maximus ac. Donac
+              handrelit sodales congue...
+            </p>
+          </div>
+          <div class="announcements__announcement-container">
+            <p class="announcements__title">Updated Privacy Policy</p>
+            <p class="announcements__description">
+              Vestibulum condimentum tellus lacus,
+              in accumsian elit maximus ac. Donac
+              handrelit sodales congue...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="trending">
+        <p class="main__heading">Trending</p>
+        <div class="trending__user-container">
+          <div class="trending__user">
+            <img class="trending__user-profile-picture" src="./assets/images/tegan.jpg" alt="other-profile-picture">
+            <div>
+              <p class="trending__user-name">@tegan</p>
+              <p class="trending__user-project">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending__user">
+            <img class="trending__user-profile-picture" src="./assets/images/pp.jpeg" alt="other-profile-picture">
+            <div>
+              <p class="trending__user-name">@loki</p>
+              <p class="trending__user-project">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="trending__user">
+            <img class="trending__user-profile-picture" src="./assets/images/kendall.jpg" alt="other-profile-picture">
+            <div> 
+              <p class="trending__user-name">@kendall</p>
+              <p class="trending__user-project">Life Changing App</p>
+            </div>
+          </div>
+          <div class="trending__user">
+            <img class="trending__user-profile-picture" src="./assets/images/alex.jpg" alt="other-profile-picture">
+            <div>
+              <p class="trending__user-name">@alex</p>
+              <p class="trending__user-project">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </main>
+
+  </div>
   
 </body>
 </html>
